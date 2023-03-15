@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DFD910FB38C7E9B4B5BD137 /* Pods_RickAndMorty_IOS_VIPER_RickAndMorty_IOS_VIPERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8F4F9F5CC574018DFE3B2B /* Pods_RickAndMorty_IOS_VIPER_RickAndMorty_IOS_VIPERUITests.framework */; };
+		D1736A1B85C76C050759B4A6 /* Pods_RickAndMorty_IOS_VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11362472BC6359EF02933B5B /* Pods_RickAndMorty_IOS_VIPER.framework */; };
+		DD325CD216DE1AB3A607347E /* Pods_RickAndMorty_IOS_VIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DE053EB9A2672EB8A87EB2 /* Pods_RickAndMorty_IOS_VIPERTests.framework */; };
 		DDA1F06429C0F47100D4EFC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1F06329C0F47100D4EFC4 /* AppDelegate.swift */; };
 		DDA1F06629C0F47100D4EFC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1F06529C0F47100D4EFC4 /* SceneDelegate.swift */; };
 		DDA1F06829C0F47100D4EFC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1F06729C0F47100D4EFC4 /* ViewController.swift */; };
@@ -37,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11362472BC6359EF02933B5B /* Pods_RickAndMorty_IOS_VIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty_IOS_VIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1571FF0CA26B1A5A9BD0ECA7 /* Pods-RickAndMorty-IOS-VIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-IOS-VIPERTests.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-IOS-VIPERTests/Pods-RickAndMorty-IOS-VIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C8F4F9F5CC574018DFE3B2B /* Pods_RickAndMorty_IOS_VIPER_RickAndMorty_IOS_VIPERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty_IOS_VIPER_RickAndMorty_IOS_VIPERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303435975FAA7D5651E4D011 /* Pods-RickAndMorty-IOS-VIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-IOS-VIPERTests.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-IOS-VIPERTests/Pods-RickAndMorty-IOS-VIPERTests.release.xcconfig"; sourceTree = "<group>"; };
+		674AC222CF7CBB883C70BC01 /* Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88DE053EB9A2672EB8A87EB2 /* Pods_RickAndMorty_IOS_VIPERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty_IOS_VIPERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25DF08444A9F3D63A93D302 /* Pods-RickAndMorty-IOS-VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-IOS-VIPER.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-IOS-VIPER/Pods-RickAndMorty-IOS-VIPER.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA1F06029C0F47100D4EFC4 /* RickAndMorty-IOS-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RickAndMorty-IOS-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA1F06329C0F47100D4EFC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDA1F06529C0F47100D4EFC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		DDA1F08329C0F47400D4EFC4 /* RickAndMorty-IOS-VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RickAndMorty-IOS-VIPERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA1F08729C0F47400D4EFC4 /* RickAndMorty_IOS_VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMorty_IOS_VIPERUITests.swift; sourceTree = "<group>"; };
 		DDA1F08929C0F47400D4EFC4 /* RickAndMorty_IOS_VIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMorty_IOS_VIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E06BC2EF217653E09A7DD364 /* Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF85265897E568E29711EC22 /* Pods-RickAndMorty-IOS-VIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty-IOS-VIPER.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty-IOS-VIPER/Pods-RickAndMorty-IOS-VIPER.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1736A1B85C76C050759B4A6 /* Pods_RickAndMorty_IOS_VIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD325CD216DE1AB3A607347E /* Pods_RickAndMorty_IOS_VIPERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFD910FB38C7E9B4B5BD137 /* Pods_RickAndMorty_IOS_VIPER_RickAndMorty_IOS_VIPERUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D64F98CAA49EA0839C86505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11362472BC6359EF02933B5B /* Pods_RickAndMorty_IOS_VIPER.framework */,
+				1C8F4F9F5CC574018DFE3B2B /* Pods_RickAndMorty_IOS_VIPER_RickAndMorty_IOS_VIPERUITests.framework */,
+				88DE053EB9A2672EB8A87EB2 /* Pods_RickAndMorty_IOS_VIPERTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDA1F05729C0F47100D4EFC4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				DDA1F07C29C0F47400D4EFC4 /* RickAndMorty-IOS-VIPERTests */,
 				DDA1F08629C0F47400D4EFC4 /* RickAndMorty-IOS-VIPERUITests */,
 				DDA1F06129C0F47100D4EFC4 /* Products */,
+				FA44116D8161B3B9D03B8C01 /* Pods */,
+				1D64F98CAA49EA0839C86505 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +157,19 @@
 			path = "RickAndMorty-IOS-VIPERUITests";
 			sourceTree = "<group>";
 		};
+		FA44116D8161B3B9D03B8C01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B25DF08444A9F3D63A93D302 /* Pods-RickAndMorty-IOS-VIPER.debug.xcconfig */,
+				EF85265897E568E29711EC22 /* Pods-RickAndMorty-IOS-VIPER.release.xcconfig */,
+				674AC222CF7CBB883C70BC01 /* Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.debug.xcconfig */,
+				E06BC2EF217653E09A7DD364 /* Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.release.xcconfig */,
+				1571FF0CA26B1A5A9BD0ECA7 /* Pods-RickAndMorty-IOS-VIPERTests.debug.xcconfig */,
+				303435975FAA7D5651E4D011 /* Pods-RickAndMorty-IOS-VIPERTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +177,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDA1F08D29C0F47400D4EFC4 /* Build configuration list for PBXNativeTarget "RickAndMorty-IOS-VIPER" */;
 			buildPhases = (
+				77D6C16B69A52D2B436DF7ED /* [CP] Check Pods Manifest.lock */,
 				DDA1F05C29C0F47100D4EFC4 /* Sources */,
 				DDA1F05D29C0F47100D4EFC4 /* Frameworks */,
 				DDA1F05E29C0F47100D4EFC4 /* Resources */,
+				5E95ED6E581631262DFA91EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "RickAndMorty-IOS-VIPER";
+			packageProductDependencies = (
+			);
 			productName = "RickAndMorty-IOS-VIPER";
 			productReference = DDA1F06029C0F47100D4EFC4 /* RickAndMorty-IOS-VIPER.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDA1F09029C0F47400D4EFC4 /* Build configuration list for PBXNativeTarget "RickAndMorty-IOS-VIPERTests" */;
 			buildPhases = (
+				230C4A997D5EC38026109328 /* [CP] Check Pods Manifest.lock */,
 				DDA1F07529C0F47400D4EFC4 /* Sources */,
 				DDA1F07629C0F47400D4EFC4 /* Frameworks */,
 				DDA1F07729C0F47400D4EFC4 /* Resources */,
@@ -172,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDA1F09329C0F47400D4EFC4 /* Build configuration list for PBXNativeTarget "RickAndMorty-IOS-VIPERUITests" */;
 			buildPhases = (
+				656BB536BD91C69BAE67BA79 /* [CP] Check Pods Manifest.lock */,
 				DDA1F07F29C0F47400D4EFC4 /* Sources */,
 				DDA1F08029C0F47400D4EFC4 /* Frameworks */,
 				DDA1F08129C0F47400D4EFC4 /* Resources */,
+				DAE2E8A3D164FFCE0EC2F154 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +265,8 @@
 				Base,
 			);
 			mainGroup = DDA1F05729C0F47100D4EFC4;
+			packageReferences = (
+			);
 			productRefGroup = DDA1F06129C0F47100D4EFC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -255,6 +304,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		230C4A997D5EC38026109328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickAndMorty-IOS-VIPERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E95ED6E581631262DFA91EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-IOS-VIPER/Pods-RickAndMorty-IOS-VIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-IOS-VIPER/Pods-RickAndMorty-IOS-VIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-IOS-VIPER/Pods-RickAndMorty-IOS-VIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656BB536BD91C69BAE67BA79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D6C16B69A52D2B436DF7ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickAndMorty-IOS-VIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE2E8A3D164FFCE0EC2F154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests/Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DDA1F05C29C0F47100D4EFC4 /* Sources */ = {
@@ -436,6 +588,7 @@
 		};
 		DDA1F08E29C0F47400D4EFC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25DF08444A9F3D63A93D302 /* Pods-RickAndMorty-IOS-VIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +617,7 @@
 		};
 		DDA1F08F29C0F47400D4EFC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF85265897E568E29711EC22 /* Pods-RickAndMorty-IOS-VIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +646,7 @@
 		};
 		DDA1F09129C0F47400D4EFC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1571FF0CA26B1A5A9BD0ECA7 /* Pods-RickAndMorty-IOS-VIPERTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +667,7 @@
 		};
 		DDA1F09229C0F47400D4EFC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303435975FAA7D5651E4D011 /* Pods-RickAndMorty-IOS-VIPERTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +688,7 @@
 		};
 		DDA1F09429C0F47400D4EFC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674AC222CF7CBB883C70BC01 /* Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +707,7 @@
 		};
 		DDA1F09529C0F47400D4EFC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06BC2EF217653E09A7DD364 /* Pods-RickAndMorty-IOS-VIPER-RickAndMorty-IOS-VIPERUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
